@@ -1,0 +1,142 @@
+/* Responsive container */
+.container {
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  /* Title styling */
+  .title {
+    font-family: Helvetica;
+    color: #f5f504;
+    padding: 0 0 20px 30px;
+  }
+  
+  /* Grid layout */
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    padding-bottom: 2rem;
+  }
+  
+  /* Content styling */
+  .contents {
+    padding: 0 30px;
+    border-left: 2px solid #ecc102;
+  }
+  
+  /* Box styling */
+  .contents .box {
+    position: relative;
+    padding: 20px 25px;
+    border: 1px solid #ecc102;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 5rem;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s forwards;
+  }
+  
+  /* Hover shadow */
+  .box:hover {
+    box-shadow: 0px 3px 12px 0px #ccc;
+  }
+  
+  /* Animation for entry */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+h3 , h4{
+    color: #ecc102;
+}  
+  /* Circle line before box */
+  .box::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top: 0;
+    background-color: #ecc102;
+    border: 2px solid #ecc102;
+    transform: scale(0);
+    animation: circleAnimation 0.6s forwards;
+  }
+  
+  @keyframes circleAnimation {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Animation delays */
+  .box:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  .box:nth-child(2) {
+    animation-delay: 0.6s;
+  }
+  .box:nth-child(3) {
+    animation-delay: 1s;
+  }
+  
+  /* ===================== */
+  /* 📱 MEDIA QUERIES 📱   */
+  /* ===================== */
+  
+  /* Tablets */
+  @media (max-width: 1024px) {
+    .row {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      padding: 0;
+    }
+  
+    .contents {
+      padding-left: 20px;
+      border-left: none;
+      border-top: 2px solid #ecc102;
+    }
+  
+    .contents .box {
+      margin-bottom: 3rem;
+    }
+  }
+  
+  /* Phones */
+  @media (max-width: 768px) {
+    .title {
+      padding: 0 0 10px 15px;
+    }
+  
+    .contents {
+      padding: 0 15px;
+    }
+  
+    .contents .box {
+      padding: 15px 20px;
+    }
+  
+    .box::before {
+      left: -12px;
+      right: auto;
+    }
+  }
+  

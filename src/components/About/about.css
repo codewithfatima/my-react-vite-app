@@ -1,0 +1,130 @@
+  /* Style heading */
+  #about h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  }
+  
+  .about__container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+
+  
+  .about__content p {
+    margin-top: 1rem;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 5rem;
+    margin-bottom : 1rem;
+    margin-right: 5rem;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: rgb(240, 240, 161);
+  }
+  
+  .about__me{
+    width: 100%;
+    margin-left: 25%;
+    padding-right: 2rem;
+    aspect-ratio: 1/1;
+    border-radius: .5rem;
+    display: grid;
+    place-items: center;
+  }
+  .about__image:hover{
+    transform: rotate(0);
+    transform:rotate(10deg);
+    overflow: hidden;
+  }
+
+  .bte{
+        width:max-content;
+        display: inline-block;
+        padding: 0.75rem 1.2rem;
+        margin-top: 20px;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        border: 1px soild var(--color-primary);
+        transition: var(--transition);
+        background-color: var(--color-primary);
+        margin-bottom: 8rem;
+        /* text-align: center;
+        justify-content: center;
+        display: flex; */
+     
+  }
+
+/* ---------- MEDIA QUERIES ---------- */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  #about h2 {
+    font-size: 1.8rem;
+  }
+
+  .about__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 0 5%;
+  }
+  
+
+  .about__content p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1rem;
+    padding: 0;
+  }
+}
+
+/* Mobile: Phones */
+@media (max-width: 768px) {
+  #about h2 {
+    font-size: 1.5rem;
+  }
+
+  .about__container {
+    padding: 0 1rem;
+  }
+
+  .about__content p {
+    font-size: 0.95rem;
+    padding: 0;
+  }
+
+  .about__me {
+    width: 100%;
+    aspect-ratio: auto;
+  }
+  .bte{
+    margin-left: 15rem;
+  }
+ 
+}
+
+/* Extra small screens: older phones, iPhone SE, etc. */
+@media (max-width: 480px) {
+  #about h2 {
+    font-size: 1.3rem;
+  }
+
+  .about__content p {
+    font-size: 0.9rem;
+  }
+
+  .bte {
+    padding: 0.6rem 1rem;
+  }
+}
+
