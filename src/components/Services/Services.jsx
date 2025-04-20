@@ -48,7 +48,7 @@ const Services = () => {
      viewport={{ once: false, amount: 0.5 }}
     className="container services__content">
      <article className="service">
-         <h3 className='heading'>Mern Stack Development</h3>
+         <h3 className='heading'>Full Stack Development</h3>
          <p className='para'>Build scalable and dynamic web applications using MERN.
             Custom, responsive designs for optimal user experiences across all devices.</p>
       <div className='img'>
@@ -59,7 +59,7 @@ const Services = () => {
      
      <motion.article variants={fadeIn('up', 0.5)} className="service">
      <article className="service">
-       <h3 className="heading">Responsive Design</h3>
+       <h3 className="heading">Responsive Web & Mobile Designs</h3>
          <p className='para'>Crafting visually appealing and user-friendly designs that
             adapt seamlessly to any device, ensuring an optimal browsing 
             experience on all screen sizes.</p>

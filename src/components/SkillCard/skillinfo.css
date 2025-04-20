@@ -1,7 +1,7 @@
 .skills-info-card{
     width: 33rem;
     min-height: 10rem;  
-    margin-left: -9%;
+    margin-left: -20%;
     border-radius: 0.65rem;
     border: 1.5px solid yellow;
     background: rgba(22, 17, 47 , 0.398);
@@ -38,7 +38,7 @@ h6{
 
 .skill-progress-bg {
     width: 100%;
-    background-color: #e0e0e0; /* Background color for the progress bar */
+    background-color: #e0e0e0; 
     border-radius: 5px; 
     overflow: hidden; 
 }
@@ -47,4 +47,14 @@ h6{
     height: 10px; 
     background-color: #eed600; /* Color of the filled part */
     transition: width 0.3s ease; /* Smooth transition */
+}
+
+@media (max-width: 768px) {
+    .skills-info-card{
+        max-width: 90%;
+        flex: 1 1 100%;
+        margin-left: -2rem;
+    }
+
+   
 }

@@ -45,8 +45,9 @@ const fadeIn = (direction, duration = 0.5) => {
 
   return (
     <>
+
+
     <motion.div 
-    //  className="w-full lg:w-1/2"
      initial={{ x: -200, opacity: 0 }}
      whileInView={{ x: 0, opacity: 1 }}
      transition={{ duration: 0.8 }}
@@ -57,6 +58,7 @@ const fadeIn = (direction, duration = 0.5) => {
       <span className='titl'>{title}</span>
     
     </motion.div>    
+   
    </>
   );
 };

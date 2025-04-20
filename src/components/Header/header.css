@@ -1,123 +1,163 @@
+:root {
+  --color-bg-variant: #facc15; /* yellow */
+  --color-primary: #facc15;
+}
 
+/* Base styles */
 header {
-    height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-  }
-  
+  min-height: 100vh;
+  padding-top: 7rem;
+  background-color: #1e1e1e;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  padding-inline: 1rem;
+}
+
 .head {
-    margin-top: -75px;
-    margin-left: -80%;
-    font-size: 26px;
-    font-weight: bolder;
-    color: var(--color-bg-variant);
+  position: absolute;
+  top: 3rem;
+  left: 6rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--color-bg-variant);
+  z-index: 1000;
+}
+
+.head:hover {
+  color: rgb(220, 217, 214);
+}
+
+
+.logo {
+  color: var(--color-bg-variant);
+  font-size: 2.5rem;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.type-animation-container {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: yellow;
+}
+
+h5 {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+h6 {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  padding: 0 0.5rem;
+  color: #d1d5db;
+  margin-top: 1rem;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: var(--color-bg-variant);
+  color: #101010;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  left: 6rem;
+  bottom: 3rem;
+}
+
+.header__socials::after {
+  content: '';
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+.header__socials a {
+  color: var(--color-primary);
+  transition: color 0.3s;
+}
+
+.header__socials a:hover {
+  color: #fff;
+}
+
+/* ========== Responsive ========== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .type-animation-container {
+    font-size: 1.6rem;
   }
-  
-  .head:hover {
-    color: rgb(220, 217, 214);
+
+  .logo {
+    font-size: 2.2rem;
   }
-  h4{
+}
+
+/* Mobile Phones */
+@media (max-width: 600px) {
+  .head {
+    font-size: 1.6rem;
+  }
+
+  .logo {
     font-size: 2rem;
   }
-  .logo {
-    color: var(--color-bg-variant);
-    font-size: 60px;
-    font-weight: bold;
-  }
+
   .type-animation-container {
-    font-size: 60px; /* Increase font size as needed */
-    font-weight: bold; /* Optional: Make the text bold */
-    color: yellow;
+    font-size: 1.4rem;
   }
+
   h5 {
-    margin-top: 10px;
-    font-size: 20px;
+    font-size: 1rem;
   }
-  
-  h6 {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
+
   p {
-    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
   }
-  
-  .btn {
-    margin-top: 20px;
-    font-weight: bold;
-    border-radius: 5px;
-    background-color: var(--color-bg-variant);
-    color: rgb(16, 16, 16);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 2px solid rgb(66, 1, 68);
-  }
-  
-  /* Media queries */
-  @media (max-width: 992px) {
-    .head {
-      margin-left: 0;
-      font-size: 22px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .head {
-      margin-top: -50px;
-    }
-  
-    .logo {
-      font-size: 36px;
-    }
-  
-    .header__socials {
-      margin-left: 0;
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .head {
-      font-size: 20px;
-    }
-  
-    .logo {
-      font-size: 24px;
-    }
-  
-    .header__socials {
-      bottom: 1.5rem;
-    }
-  }
-  
-  /* Additional styles for CTA and Socials */
-  .cte {
-    display: flex;
-    grid-area: 1.2rem;
-    justify-content: center;
-  }
-  
+
   .header__socials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
-    margin-left: 70px;
+    position: static;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
   }
-  
-  .header__socials::after {
-    content: '';
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
+}
+
+/* Tiny Devices (iPhone SE) */
+@media (max-width: 400px) {
+  .type-animation-container {
+    font-size: 1.2rem;
   }
-  
-  .header__socials a {
-    color: var(--color-primary);
+
+  .logo {
+    font-size: 1.6rem;
   }
-  
+
+  p {
+    font-size: 0.85rem;
+  }
+}
+

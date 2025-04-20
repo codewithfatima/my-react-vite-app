@@ -79,6 +79,13 @@ const Contact = () => {
           <button className="btn">Send message</button>
         </form>
       </div>
+
+
+      
+      <div style={{ textAlign: 'center', padding: '1rem', backgroundColor: '#111', color: '#ccc', fontSize: '0.875rem' }}>
+  <small>&copy; Fatima Naeem. All rights reserved.</small>
+</div>
+
     </section>
   );
 };

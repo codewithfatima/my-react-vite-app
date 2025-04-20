@@ -130,3 +130,9 @@ img{
     margin-bottom: 2rem;
   }
 }
+
+.footer__copyright{
+  margin-bottom: 7rem;
+  color: rgb(253, 253, 1);
+  font-size: 15px;
+}

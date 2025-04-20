@@ -133,8 +133,10 @@
 /* Mobile screens (max-width: 600px) */
 @media screen and (max-width: 600px) {
     .portfolio__container {
-        grid-template-columns: 1fr; /* Single column on mobile */
-        gap: 1rem; /* Smaller gap between items */
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        max-width: 80%;
+        
     }
 }
 
@@ -142,6 +144,7 @@
 @media screen and (max-width: 400px) {
     .portfolio__container {
         gap: 0.8rem; 
+        
     
     }
 }

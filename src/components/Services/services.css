@@ -25,6 +25,7 @@ h2{
     text-align : center;
     justify-content : center;
     margin-top : 1rem;
+    padding: 2rem
 }
 .heading{
     text-align : center;
@@ -66,7 +67,7 @@ h2{
 @media screen and (max-width: 1024px){
    .services__content{
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    max-width: 80%;
    }
    .service{
     height: auto;
