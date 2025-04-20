@@ -26,6 +26,7 @@
     margin-right: 5rem;
     font-family:Arial, Helvetica, sans-serif ;
     color: rgb(240, 240, 161);
+    
   }
   
   .about__me{
@@ -54,9 +55,7 @@
         transition: var(--transition);
         background-color: var(--color-primary);
         margin-bottom: 8rem;
-        /* text-align: center;
-        justify-content: center;
-        display: flex; */
+        margin-left: 45rem;
      
   }
 
