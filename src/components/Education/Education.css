@@ -9,7 +9,7 @@
 .title h2 {
   font-size: 2rem;
   font-weight: bold;
-  color: #f5f504;
+  color: var(--color-bg-variant);
   margin-bottom: 1rem;
   position: relative;
 }
@@ -55,7 +55,7 @@
 .box::before {
   content: '';
   position: absolute;
-  left: -1.2rem;
+  left: -2.2rem;
   top: 1rem;
   width: 15px;
   height: 15px;
@@ -86,14 +86,15 @@
 /* Responsive for mobile */
 @media (max-width: 768px) {
   .row {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 
   .col {
     width: 100%;
   }
+ 
 
   .box::before {
-    left: -1rem;
+    left: -2.2rem;
   }
 }

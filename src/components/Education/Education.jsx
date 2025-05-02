@@ -18,13 +18,17 @@ const Education = () => {
                                     <h4>2024</h4>
                                     <h3>    HiSkyTech Company</h3>
                                     <h4>Mern Stack Developer Internship  </h4>  <span>  Punjab, pakistan </span>
-                                    <p>I completed an internship as a Full Stack Developer at SkyTech Company, where I contributed to three
-                                        key projects related to real-world payment systems and authentication. In these projects, I played a role
-                                        in developing secure and efficient payment processing solutions, as well as implementing robust
-                                        authentication mechanisms. This experience allowed me to gain hands-on knowledge of both front-end
-
-                                        and back-end technologies, improving my skills in designing user interfaces and building scalable server-
-                                        side solutions.</p>
+                                    <p> • Completed an internship as a Full Stack Developer at SkyTech Company.
+                                        <br />
+                                        • Contributed to three key projects focused on real-world payment systems and authentication.
+                                        <br />
+                                        • Developed secure and efficient payment processing solutions.
+                                        <br />
+                                        •Implemented robust authentication mechanisms to ensure system security.
+                                        <br />
+                                        • Gained hands-on experience with both front-end and back-end technologies.
+                                        <br />
+                                        • Improved skills in designing user interfaces and building scalable server-side solutions.</p>
                                 </div>
                                 <div className="box">
                                     <h4>2018-2019</h4>

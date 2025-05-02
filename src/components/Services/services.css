@@ -67,7 +67,7 @@ h2{
 @media screen and (max-width: 1024px){
    .services__content{
     grid-template-columns: 1fr 1fr;
-    max-width: 80%;
+    max-width: 120%;
    }
    .service{
     height: auto;
@@ -77,6 +77,13 @@ h2{
 @media screen and (max-width: 600px){
     .services__content{
      grid-template-columns: 1fr;
-     gap: 1.5rem;
+     gap: 1.7rem;
     }
+ }
+
+ @media (max-width: 768px) {
+    h3{
+        font-size: 1rem;
+    }
+
  }
