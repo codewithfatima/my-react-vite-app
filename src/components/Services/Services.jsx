@@ -59,7 +59,7 @@ const Services = () => {
      
      <motion.article variants={fadeIn('up', 0.5)} className="service">
      <article className="service">
-       <h3 className="heading">Responsive Web <br /> & Mobile Designs</h3>
+       <h3 className="heading">Responsive  & Mobile Designs</h3>
          <p className='para'>Crafting visually appealing and user-friendly designs that
             adapt seamlessly to any device, ensuring an optimal browsing 
             experience on all screen sizes.</p>

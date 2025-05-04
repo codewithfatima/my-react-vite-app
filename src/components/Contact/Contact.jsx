@@ -41,13 +41,13 @@ const Contact = () => {
             <MdOutlineEmail className="contact__option-icon" />
             <h4 style={{ fontSize: '2px' }}>Email</h4>
             <h5 className="log">fatima68.05.07@gmail.com</h5>
-            <a href="mailto:fatima68.05.07@gmail.com">Send a message</a>
+            <a href="mailto:fatima68.05.07@gmail.com" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
             <FaSnapchat className="contact__option-icon" />
             <h4>Snapchat</h4>
             {/* <h5 className='log'>fatoomm26</h5> */}
-            <a href="https://www.snapchat.com/add/yourusername">Send a message</a>
+            <a href="https://www.snapchat.com/add/fatoomm26" target="_blank">Send a message</a>
           </article>
           <article className="contact__option">
             <FaLinkedin className="contact__option-icon" />

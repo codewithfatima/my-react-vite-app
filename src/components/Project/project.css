@@ -136,7 +136,11 @@
         grid-template-columns: 1fr;
         gap: 1rem;
         max-width: 80%;
+        margin-left: -2rem;
         
+    }
+    .tabs{
+        font-size: 2rem;
     }
 }
 

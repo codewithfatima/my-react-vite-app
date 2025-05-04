@@ -43,7 +43,7 @@ header {
 }
 
 h5 {
-  margin-top: 10px;
+  margin-top: 4rem;
   font-size: 1.1rem;
 }
 
@@ -94,6 +94,7 @@ p {
   background: var(--color-primary);
 }
 
+
 .header__socials a {
   color: var(--color-primary);
   transition: color 0.3s;
@@ -143,6 +144,10 @@ p {
     flex-direction: row;
     justify-content: center;
     margin-top: 2rem;
+  }
+  .header_container{
+    max-width: fit-content;
+
   }
 }
 

@@ -5,11 +5,11 @@
     border: 2px solid #ffd700;
     padding: 2rem;
     width: 100%;
-    margin-left: -5rem;
-    max-width: 280px;
+    /* margin-left: -5rem; */
+    max-width: 230px;
     text-align: center;
     font-weight: bolder;
-    color: #fcfaf6;
+    color: #807c75;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
     box-sizing: border-box;
@@ -52,8 +52,8 @@
 /* Responsive Styling */
 @media (max-width: 768px) {
     .skills-card {
-        padding: 1.5rem;
-        max-width: 100%;
+        padding: 1.3rem;
+        max-width: 94%;
         flex: 1 1 100%;
         margin-left: -1rem;
     }
@@ -66,4 +66,8 @@
     .skill-icon img {
         width: 1.6rem;
     }
+}
+
+.titl{
+    color: #e5e1db;
 }

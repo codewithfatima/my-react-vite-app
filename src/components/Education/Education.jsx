@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaGraduationCap } from "react-icons/fa";
 import './Education.css'
 
 const Education = () => {
@@ -43,7 +44,8 @@ const Education = () => {
 
                         <div className="col">
                             <div className="title">
-                                <h2>Education</h2>
+                                <h2>
+                            <FaGraduationCap  />  Education</h2>
                             </div>
                             <div className="contents">
                                 <div className="box">

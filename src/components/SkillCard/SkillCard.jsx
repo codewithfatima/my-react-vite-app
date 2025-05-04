@@ -48,9 +48,9 @@ const fadeIn = (direction, duration = 0.5) => {
 
 
     <motion.div 
-     initial={{ x: -200, opacity: 0 }}
+     initial={{ x: 100, opacity: 0 }}
      whileInView={{ x: 0, opacity: 1 }}
-     transition={{ duration: 0.8 }}
+     transition={{ duration: 0.1}}
      viewport={{ once: false, amount: 0.2 }}
     className={` w-full lg:w-1/2 skills-card ${isActive ? "active" : ""}`}
     onClick={()=>onClick()}>

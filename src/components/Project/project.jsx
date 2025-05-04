@@ -1,13 +1,13 @@
 import React , {useState} from 'react'
 import project3 from '../../assets/project3.png';
-import Project6 from '../../assets/Project6.png';
+// import Project6 from '../../assets/Project6.png';
 import Project5 from '../../assets/Project5.png';
-import Project7 from '../../assets/Project7.png';
-import project1 from '../../assets/project1.png';
-import Project4 from '../../assets/Project4.png';
+// import Project7 from '../../assets/Project7.png';
+// import project1 from '../../assets/project1.png';
+// import Project4 from '../../assets/Project4.png';
 import Project8 from '../../assets/Project8.png';
 import Project9 from '../../assets/Project9.png';
-import Project10 from '../../assets/Project10.png';
+import Project10 from '../../assets/Project10.jpg';
 import Project12 from '../../assets/Project12.png';
 import { motion } from "framer-motion";
 import { fadeUp } from "../../variants";
@@ -17,25 +17,9 @@ const project = () => {
   const[activeTab ,setActiveTab] = useState('all');
 
   const data=[
+  
     {
       id:1,
-      image:Project5,
-      title:' Using Tailwindcss',
-       category: 'back',
-      github:"https://github.com/codewithfatima/PlantWebsite",
-      demo:'https://plantwebsite-pwg9.onrender.com'
-    },
-    {
-      id:1,
-      image:Project8,
-      title:'MERN Quiz Website',
-       category: 'back',
-      github:"https://github.com/codewithfatima/Quiz-App",
-      demo:'https://quiz-app-1-f9lg.onrender.com'
-     
-    },
-    {
-      id:2,
       image: Project10,
       title:'E-Commerence Website',
       category: 'back',
@@ -43,14 +27,23 @@ const project = () => {
       demo:'https://e-commerce-website-0irp.onrender.com'
     },
     {
-      id:4,
-      image:Project6,
-      title:'Coffee Shop Website',
-       category: 'front',
-      github:"https://github.com",
-      demo:'https://dribble.com/shots/16673715-'
+      id:2,
+      image:Project8,
+      title:'MERN Quiz Website',
+       category: 'back',
+      github:"https://github.com/codewithfatima/Quiz-App",
+      demo:'https://quiz-app-1-f9lg.onrender.com'
      
     },
+    // {
+    //   id:4,
+    //   image:Project6,
+    //   title:'Coffee Shop Website',
+    //    category: 'front',
+    //   github:"https://github.com",
+    //   demo:'https://dribble.com/shots/16673715-'
+     
+    // },
      {
       id:5,
       image:project3,
@@ -61,29 +54,37 @@ const project = () => {
      
     },
     {
-      id:6,
-      image:Project7,
-      title:'Memory Game',
-       category: 'front',
-      github:"https://github.com/codewithfatima/Memory-Game",
-      demo:'https://codewithfatima.github.io/Memory-Game/'
+      id:5,
+      image:Project5,
+      title:'Mern Stack website',
+       category: 'back',
+      github:"https://github.com/codewithfatima/PlantWebsite",
+      demo:'https://plantwebsite-pwg9.onrender.com'
     },
-    {
-      id:7, 
-      image: Project4,
-      title:'Calculator Using JavaScript',
-       category: 'front',
-      github:"https://github.com/codewithfatima/CalculatorUsingJavaSscript",
-      demo:'https://codewithfatima.github.io/CalculatorUsingJavaSscript/'
-    },
-    {
-      id:8,
-      image:project1,
-      title:'Tic-Tac-Toe Game',
-       category: 'front',
-      github:"https://github.com/codewithfatima/Tic-Tac-Toe-Game",
-      demo:'https://codewithfatima.github.io/Tic-Tac-Toe-Game/'
-    },
+    // {
+    //   id:6,
+    //   image:Project7,
+    //   title:'Memory Game',
+    //    category: 'front',
+    //   github:"https://github.com/codewithfatima/Memory-Game",
+    //   demo:'https://codewithfatima.github.io/Memory-Game/'
+    // },
+    // {
+    //   id:7, 
+    //   image: Project4,
+    //   title:'Calculator Using JavaScript',
+    //    category: 'front',
+    //   github:"https://github.com/codewithfatima/CalculatorUsingJavaSscript",
+    //   demo:'https://codewithfatima.github.io/CalculatorUsingJavaSscript/'
+    // },
+    // {
+    //   id:8,
+    //   image:project1,
+    //   title:'Tic-Tac-Toe Game',
+    //    category: 'front',
+    //   github:"https://github.com/codewithfatima/Tic-Tac-Toe-Game",
+    //   demo:'https://codewithfatima.github.io/Tic-Tac-Toe-Game/'
+    // },
     {
       id:10, 
       image: Project9,
@@ -93,7 +94,7 @@ const project = () => {
       demo:'https://mern-to-do-list-f22f.onrender.com'
     },
     {
-      id:10, 
+      id:3, 
       image: Project12,
       title:'Doctor Booking Website',
        category: 'back',

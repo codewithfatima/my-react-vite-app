@@ -11,7 +11,7 @@ const Header = () => {
     return {
       hidden: {
         opacity: 0,
-        y: direction === 'up' ? 20 : -20, // Moves the element up or down
+        y: direction === 'up' ? 20 : -20, 
       },
       show: {
         opacity: 1,
@@ -33,7 +33,7 @@ const Header = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.2 }}
         className='head '>Fatima.</motion.h4>
-      <div className="container header_container">
+      <div className=" header_container">
         <motion.h5
           variants={fadeIn('up', 0.2)}
           initial="hidden"
