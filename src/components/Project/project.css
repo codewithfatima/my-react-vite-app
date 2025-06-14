@@ -118,15 +118,19 @@
 .portfolio__item:hover {
     color: white; 
     border-bottom: 4px solid #FBBF24; 
-    /* background-color: #333333; */
 }
 
 
-
+/* Tablet screens (max-width: 1024px) */
 @media screen and (max-width: 1024px) {
     .portfolio__container {
         grid-template-columns: repeat(2, 1fr); 
-        gap: 1.5rem; 
+        gap: 1.5rem;
+    }
+
+    .tabs .btz {
+        font-size: 0.9rem;
+        padding: 10px 20px;
     }
 }
 
@@ -135,20 +139,28 @@
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
-        max-width: 80%;
-        margin-left: -2rem;
-        
+        max-width: 90%;
     }
-    .tabs{
-        font-size: 2rem;
+
+    .tabs {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .tabs .btz {
+        font-size: 0.85rem;
+        padding: 8px 16px;
     }
 }
 
 /* Extra small screens (max-width: 400px) */
 @media screen and (max-width: 400px) {
     .portfolio__container {
-        gap: 0.8rem; 
-        
-    
+        gap: 0.8rem;
+    }
+
+    .tabs .btz {
+        font-size: 0.75rem;
+        padding: 6px 12px;
     }
 }
