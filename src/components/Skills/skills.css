@@ -7,8 +7,15 @@
 .skills-container h5{
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 3.5rem;
+    /* margin-bottom: 3.5rem; */
     margin-left: -7rem;
+}
+.skills-container h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: gray;
+    margin-bottom: 2rem;
+    margin-left: .7rem;
 }
 
 .skills-content{

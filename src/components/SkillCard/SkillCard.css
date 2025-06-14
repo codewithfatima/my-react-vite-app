@@ -53,13 +53,13 @@
 @media (max-width: 768px) {
     .skills-card {
         padding: 1.3rem;
-        max-width: 94%;
+        max-width: 95%;
         flex: 1 1 100%;
         margin-left: -1rem;
     }
 
     .skill-icon {
-        width: 3rem;
+        width: 3em;
         height: 3rem;
     }
 

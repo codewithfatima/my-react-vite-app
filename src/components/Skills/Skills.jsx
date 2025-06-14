@@ -57,12 +57,12 @@ const Skills = () => {
           whileInView="show"
           viewport={{ once: false, amount: 0.3 }}
         >My Expert </motion.h5>
-        <motion.h5
+        <motion.h4
           variants={fadeIn('up ', 0.2)}
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.3 }}
-        >Technical Proficiency</motion.h5>
+        >Technical Proficiency</motion.h4>
 
         <div className="skills-content">
           <motion.div
