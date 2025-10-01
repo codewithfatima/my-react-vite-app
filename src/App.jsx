@@ -1,27 +1,26 @@
 import React from 'react';
-import Header from './components/Header/Header';
-import Navbar from './components/Navbar/Nav';
-import About from './components/About/About';
-import Education from './components/Education/Education';
-import Skills from './components/Skills/Skills';
-import Services from './components/Services/Services';
-import Project from './components/Project/project';
-import Contact from './components/Contact/Contact';
+import { Routes, Route } from 'react-router-dom';
+import Contact from './components/Contact';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Screen from './components/Screen';
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Home from './components/Home';
 import './index.css';
-import './App.css';
 
 function App() {
   return (
     <>
-
-      <Header />
       <Navbar />
-      <About />
-      <Education />
-      <Skills />
-      <Services />
-      <Project />
-      <Contact />
+      <Routes>
+        <Route path='/' element={<Screen />} />
+        <Route path='/home' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/project' element={<Projects />} />
+        <Route path='/tech' element={<Skills />} />
+      </Routes>
     </>
   );
 }

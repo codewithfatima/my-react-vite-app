@@ -1,15 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
-      fontFamily: {
-        raleway: ['Raleway', 'sans-serif'],
-        jost : ["Jost" , "sans-serif"],
-        Lobster:["Lobster" , "sans-serif"]
+      animation: {
+        fadeIn: 'fadeIn 1s ease-out forwards',
       },
-    },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: 0, transform: 'translateY(30px)' },
+          '100%': { opacity: 1, transform: 'translateY(0)' },
+        },
+      },
+    }
   },
   plugins: [],
 }
-
