@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import Project10 from '../../src/assets/Project10.Jpg';
+import Project10 from '../../src/assets/Project10.jpg';
 import Project8 from '../../src/assets/Project8.png';
 import Project5 from '../../src/assets/Project5.png';
 
