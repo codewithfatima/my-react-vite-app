@@ -57,21 +57,22 @@ const Education = () => {
                     <div className="space-y-6">
                         <div className="bg-[#0f172a] p-5 rounded-xl shadow hover:scale-105 transition">
                             <h3 className="text-xl text-white font-semibold">
-                                Full-Stack Developer (Internship)
+                                Mern-Stack Developer Job
                             </h3>
-                            <p className="text-gray-400">Tech Company — Jan 2024 - Jun 2024</p>
+                            <p className="text-gray-400">Sidra International Company Aug - Oct - 2025 </p>
                             <p className="text-gray-300 mt-2 text-sm">
-                                Built a task management app using MERN stack, implemented
-                                authentication, and deployed on cloud. Collaborated with senior
-                                developers in Agile sprints.
+                                Developed and deployed a bilingual Arabic/English corporate website using MERN.
+                                Built a secure admin panel for managing news, gallery, and announcements.
+                                Implemented role-based access, responsive layouts, and brand-consistent design.
+                                Maintained and improved multiple company websites for performance and UI consistency.
                             </p>
                         </div>
 
                         <div className="bg-[#0f172a] p-5 rounded-xl shadow hover:scale-105 transition">
                             <h3 className="text-xl text-white font-semibold">
-                                Freelance Web Developer
+                                Internship Mern Stack Developer
                             </h3>
-                            <p className="text-gray-400">Remote — 2022 - Present</p>
+                            <p className="text-gray-400">June - August- 2025 </p>
                             <p className="text-gray-300 mt-2 text-sm">
                                 Designed and developed responsive websites for small businesses
                                 using React, TailwindCSS, and Node.js. Delivered user-friendly,
@@ -81,9 +82,9 @@ const Education = () => {
 
                         <div className="bg-[#0f172a] p-5 rounded-xl shadow hover:scale-105 transition">
                             <h3 className="text-xl text-white font-semibold">
-                                Freelance Web Developer
+                                Internship as Mern Developer
                             </h3>
-                            <p className="text-gray-400">Remote — 2022 - Present</p>
+                            <p className="text-gray-400">  June — 2024 </p>
                             <p className="text-gray-300 mt-2 text-sm">
                                 Designed and developed responsive websites for small businesses
                                 using React, TailwindCSS, and Node.js. Delivered user-friendly,

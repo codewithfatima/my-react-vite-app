@@ -1,25 +1,34 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Project10 from '../../src/assets/Project10.jpg';
-import Project8 from '../../src/assets/Project8.png';
+import Project11 from '../../src/assets/Project11.png';
+import Project13 from '../../src/assets/Project13.png';
 import Project5 from '../../src/assets/Project5.png';
-
-
+import Project8 from '../../src/assets/Project8.png';
 const Project = () => {
   const [activeTab, setActiveTab] = useState('all');
 
   const projects = [
     {
       id: 1,
-      image: Project10,
-      title: 'E-Commerce Website',
+      image: Project11,
+      title: 'Sidra Company Website',
       category: 'back',
       github: 'https://github.com/codewithfatima/E-Commerce-Website',
-      demo: 'https://e-commerce-website-0irp.onrender.com',
+      demo: 'https://www.sidra-kw.com/',
       tech: ['React', 'Node.js', 'MongoDB', 'Express']
     },
     {
       id: 2,
+      image: Project10,
+      title: 'E-Commerce Website',
+      category: 'back',
+      github: 'https://github.com/codewithfatima/E-Commerce-Website',
+      demo: 'https://test-0362.onrender.com/',
+      tech: ['React', 'Node.js', 'MongoDB', 'Express']
+    },
+    {
+      id: 3,
       image: Project8,
       title: 'MERN Quiz Website',
       category: 'back',
@@ -28,7 +37,7 @@ const Project = () => {
       tech: ['MongoDB', 'Express', 'React', 'Node.js']
     },
     {
-      id: 2,
+      id: 4,
       image: Project5,
       title: 'Fully React Tailwindcss website',
       category: 'front',
@@ -37,8 +46,8 @@ const Project = () => {
       tech: ['Tailwind css' ,'React' ]
     },
       {
-      id: 2,
-      image: Project8,
+      id: 5,
+      image: Project13,
       title: 'Weather Website',
       category: 'front',
       github: 'https://github.com/codewithfatima/Quiz-App',
@@ -63,7 +72,6 @@ const Project = () => {
   });
 
   const tabs = ['all', 'front', 'back'];
-
   return (
     <section id='portfolio' className="py-16 px-5 bg-[#0f172a] text-white">
       {/* Heading */}
